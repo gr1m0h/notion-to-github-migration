@@ -1,0 +1,32 @@
+{
+  "name": "notion-to-github-migration",
+  "version": "1.0.0",
+  "description": "Migrate Notion database exports to GitHub Issues",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "notion",
+    "github",
+    "migration",
+    "issues",
+    "project-management"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^22.0.0",
+    "csv-parse": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
